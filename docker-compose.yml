@@ -4,6 +4,7 @@ services:
   app1:
     build: .
     container_name: app1
+    hostname: app1
     expose:
       - "3000"
     restart: unless-stopped
@@ -11,6 +12,7 @@ services:
   app2:
     build: .
     container_name: app2
+    hostname: app2
     expose:
       - "3000"
     restart: unless-stopped
