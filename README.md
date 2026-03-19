@@ -8,7 +8,7 @@ A fully automated CI/CD pipeline that tests and deploys a Node.js web applicatio
 
 ## Architecture
 
-![Architecture Diagram](architecture.svg)
+![Architecture Diagram](architecture.png)
 
 ---
 
